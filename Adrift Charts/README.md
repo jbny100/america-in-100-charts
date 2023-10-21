@@ -4,13 +4,18 @@ This repository provides a guide on visualizing data using both the `matplotlib`
 
 ## Table of Contents
 
-[Bar Charts - Matplotlib](#bar-charts-matplotlib)
-[Line Charts - Matplotlib](#line-charts)
-[Scatter Plots - Matplotlib](#scatter-plots-matplotlib)
-[Pie Charts - Matplotlib](#pie-charts)
-[Advanced Techniques - Matplotlib](#advanced-techniques)
-[Bar Charts - Plotly](#bar-charts-plotly)
-[Scatter Plots - Plotly](#scatter-plots-plotly)
+- [Matplotlib](#matplotlib)
+    - [Bar Charts](#bar-charts-matplotlib)
+    - [Line Charts](#line-charts)
+    - [Scatter Plots](#scatter-plots-matplotlib)
+    - [Pie Charts](#pie-charts)
+    - [Advanced Techniques](#advanced-techniques)
+- [Plotly](#plotly)
+    - [Bar Charts](#bar-charts-plotly)
+    - [Scatter Plots](#scatter-plots-plotly)
+
+
+## Matplotlib
 
 
 ### Bar Charts (Matplotlib)
@@ -26,7 +31,17 @@ plt.bar(labels, data)
 plt.show()
 ```
 
-### Line Charts (Matplotlib)
+### Line Charts
+
+```python
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+plt.plot(x, y)
+plt.show()
+```
+
+### Scatter plots (Matplotlib)
 
 ```python
 x = [5, 7, 8, 7, 2, 17, 2, 9, 4, 11, 12, 9, 6]
@@ -36,7 +51,7 @@ plt.scatter(x, y)
 plt.show()
 ```
 
-### Pie Charts (Matplotlib)
+### Pie Charts
 
 ```python
 labels = 'A', 'B', 'C', 'D'
@@ -46,7 +61,7 @@ plt.pie(sizes, labels=labels)
 plt.show()
 ```
 
-### Advanced Techniques (Matplotlib)
+### Advanced Techniques 
 
 Multiple subplots - Create multiple charts in a single figure using 'subplot'.
 
@@ -105,8 +120,12 @@ Chart Style - Choose from the following chart styles using plt.style.use('').
 >>> import matplotlib.pyplot as plt
 >>> plt.style.available
 ['Solarize_Light2', '_classic_test_patch', '_mpl-gallery', '_mpl-gallery-nogrid', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn-v0_8', 'seaborn-v0_8-bright', 'seaborn-v0_8-colorblind', 'seaborn-v0_8-dark', 'seaborn-v0_8-dark-palette', 'seaborn-v0_8-darkgrid', 'seaborn-v0_8-deep', 'seaborn-v0_8-muted', 'seaborn-v0_8-notebook', 'seaborn-v0_8-paper', 'seaborn-v0_8-pastel', 'seaborn-v0_8-poster', 'seaborn-v0_8-talk', 'seaborn-v0_8-ticks', 'seaborn-v0_8-white', 'seaborn-v0_8-whitegrid', 'tableau-colorblind10']
->>> 
+>>> - Matplotlib
 ```
+
+
+## Plotly
+
 
 ### Bar Charts (Plotly)
 
