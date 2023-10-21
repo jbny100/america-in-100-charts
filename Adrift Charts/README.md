@@ -4,13 +4,13 @@ This repository provides a guide on visualizing data using both the `matplotlib`
 
 ## Table of Contents
 
-[Bar Charts](#bar-charts-matplotlib)
-[Line Charts](#line-charts)
-[Scatter Plots](#scatter-plots-matplotlib)
-[Pie Charts](#pie-charts)
-[Advanced Techniques](#advanced-techniques)
-[Bar Charts](#bar-charts-plotly)
-[Scatter Plots](#scatter-plots-plotly)
+[Bar Charts - Matplotlib](#bar-charts-matplotlib)
+[Line Charts - Matplotlib](#line-charts)
+[Scatter Plots - Matplotlib](#scatter-plots-matplotlib)
+[Pie Charts - Matplotlib](#pie-charts)
+[Advanced Techniques - Matplotlib](#advanced-techniques)
+[Bar Charts - Plotly](#bar-charts-plotly)
+[Scatter Plots - Plotly](#scatter-plots-plotly)
 
 
 ### Bar Charts (Matplotlib)
